@@ -1,0 +1,186 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-10-02 22:21+0300\n"
+"PO-Revision-Date: 2017-10-02 18:39+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.1\n"
+
+#: app/__init__.py:19
+msgid "Please log in to access this page."
+msgstr "Пожалуйста, авторизуйтесь для просмотра"
+
+#: app/forms.py:28
+msgid ""
+"This nickname has invalid characters. Please use letters, numbers, dots "
+"and underscores only."
+msgstr "Не верный логин, будьте внимательны и используйте буквы, цифры или ._."
+
+#: app/forms.py:32
+msgid "This nickname is already in use. Please choose another one."
+msgstr "Логин уже используется, проявите фантазию "
+
+#: app/views.py:37
+msgid "Your post is now live!"
+msgstr "Ваш пост сохранён"
+
+#: app/views.py:88 app/views.py:126 app/views.py:146
+#, python-format
+msgid "User %(nickname)s not found."
+msgstr "Пользователь %(nickname)s не найден "
+
+#: app/views.py:104
+msgid "Your changes have been saved."
+msgstr "Ваши изменения сохранены "
+
+#: app/views.py:129
+msgid "You can't follow yourself!"
+msgstr "Самолайки запрещены"
+
+#: app/views.py:133
+#, python-format
+msgid "Cannot follow %(nickname)s."
+msgstr "Не могу подписаться на  %(nickname)s."
+
+#: app/views.py:137
+#, python-format
+msgid "You are now following  %(nickname)s!"
+msgstr "Вы подписаны на %(nickname)s!"
+
+#: app/views.py:149
+msgid "You can't unfollow yourself!"
+msgstr "Самолайки запрещены"
+
+#: app/views.py:153
+#, python-format
+msgid "Cannot unfollow  %(nickname)s."
+msgstr "Не могу подписаться на %(nickname)s."
+
+#: app/views.py:157
+#, python-format
+msgid "You have stopped following %(nickname)s."
+msgstr "Вы отписались от %(nickname)s."
+
+#: app/templates/404.html:5
+msgid "File Not Found"
+msgstr "Файл не найден"
+
+#: app/templates/500.html:5
+msgid "An unexpected error has occurred"
+msgstr "Обнаружена ошибка"
+
+#: app/templates/500.html:6
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr "Ты зашёл не в тот район. Уходи"
+
+#: app/templates/base.html:17
+msgid "Home"
+msgstr "Домой"
+
+#: app/templates/base.html:19
+msgid "Your Profile"
+msgstr "Ваш профиль"
+
+#: app/templates/base.html:20
+msgid "Search"
+msgstr "Поиск"
+
+#: app/templates/base.html:21
+msgid "Logout"
+msgstr "Выход"
+
+#: app/templates/edit.html:5
+msgid "Edit Your Profile"
+msgstr "Изменить ваш профиль"
+
+#: app/templates/edit.html:10
+msgid "Your nickname:"
+msgstr "Ваш логин"
+
+#: app/templates/edit.html:18
+msgid "About yourself"
+msgstr "О тебе"
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(nickname)s!"
+msgstr "Привет, %(nickname)s!"
+
+#: app/templates/index.html:10
+msgid "Say something:"
+msgstr "Молви"
+
+#: app/templates/index.html:28 app/templates/user.html:28
+msgid "Newer posts"
+msgstr "Новые посты"
+
+#: app/templates/index.html:29 app/templates/user.html:29
+msgid "Older posts"
+msgstr "Предыдущие посты"
+
+#: app/templates/login.html:5
+msgid "Sign In"
+msgstr "Войти"
+
+#: app/templates/login.html:10
+msgid "Please enter your login"
+msgstr "Введите ваш логин"
+
+#: app/templates/login.html:17
+msgid "Please enter your password"
+msgstr "Введите ваш пароль"
+
+#: app/templates/login.html:24
+msgid "Please enter your email"
+msgstr "Введите адрес электронной почты"
+
+#: app/templates/login.html:30
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+#: app/templates/post.html:6
+#, python-format
+msgid "%(nickname)s said %(when)s:"
+msgstr "%(nickname)s молвил %(when)s:"
+
+#: app/templates/search_results.html:5
+msgid "Search results for "
+msgstr "Результаты поиска"
+
+#: app/templates/user.html:9
+msgid "User"
+msgstr "Пользователь"
+
+#: app/templates/user.html:11
+msgid "Last seen: "
+msgstr "Последний раз заходил"
+
+#: app/templates/user.html:12
+msgid "followers "
+msgstr "подписчики"
+
+#: app/templates/user.html:14
+msgid "Edit your profile"
+msgstr "Изменить ваш профиль"
+
+#: app/templates/user.html:16
+msgid "Follow"
+msgstr "Подписаться"
+
+#: app/templates/user.html:18
+msgid "Unfollow"
+msgstr "Отписаться"
+
+#: app/templates/user.html:29
+msgid "Older posts "
+msgstr "Предыдущие посты"
+

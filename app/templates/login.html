@@ -1,0 +1,35 @@
+<!-- extend base layout -->
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ gettext('Sign In') }}</h1>
+<form action="" method="post" name="login">
+    {{form.hidden_tag()}}
+    {{form.csrf_token}}
+    <p>
+        {{ gettext('Please enter your login') }}:<br>
+        {{form.user_login(size=40)}}
+        {% for error in form.errors.user_login %}
+        <span style="color: red;">[{{error}}]</span>
+        {% endfor %}<br>
+    </p>
+    <p>
+        {{ gettext('Please enter your password') }}:<br>
+        {{form.user_password(size=20)}}
+        {% for error in form.errors.user_password %}
+        <span style="color: red;">[{{error}}]</span>
+        {% endfor %}<br>
+    </p>
+    <p>
+        {{ gettext('Please enter your email') }}:<br>
+        {{form.user_email(size=40)}}
+        {% for error in form.errors.user_email %}
+        <span style="color: red;">[{{error}}]</span>
+        {% endfor %}<br>
+    </p>
+    <p>{{form.remember_me}}
+    {% autoescape false %} {{ gettext('Remember Me') }}
+    {% endautoescape %}</p>
+    <p><input type="submit" value="Sign In"></p>
+</form>
+{% endblock %}
